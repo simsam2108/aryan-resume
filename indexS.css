@@ -1,0 +1,127 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#resume {
+    height: 100vh;
+}
+#contents1 {
+    background-color: #330000;
+}
+#contents1,
+#contents2 {
+    width: 75vw;
+    border: 1px solid white;
+    opacity: 0.8;
+    border-radius: 20px;
+    line-height: 1.5em;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     margin-right: 20px;
+    padding: 20px;
+
+}
+
+#profile, #skills {
+    background-image: url('./images/orangeBG.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+}
+.profile {
+
+}
+
+#basicInfo,
+#profileStatement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #331300;
+    border-radius: 20px;
+    overflow: auto;
+    border: 1px solid red;
+}
+
+#basicInfo h3 {
+    font-size: 1em;
+}
+
+
+#basicInfo p {
+    font-size: 0.8em;
+}
+
+
+#experience,#education {
+        background-image: url('./images/nightBG.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        height: 100vh;
+}
+
+#eduDetails {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 50px;
+     overflow: auto;
+
+}
+
+#contents2 {
+    background-color: #000033;
+    overflow: auto;
+
+}
+
+
+
+#contents1 ol {
+    overflow: auto;
+}
+
+@font-face {
+    font-family: "8514oem";
+    src: url("./fonts/Dotf1.woff") format("woff"),
+        url("./fonts/Dotf1.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "caviardreams";
+    src: url("./fonts/CaviarDreams.ttf") format("truetype");
+}
+h1,h2,h3{
+    font-family: "8514oem";
+    color: #ffffcc;
+}
+#basicInfo p{
+    font-size: 1.5em;
+}
+p,ol,li,h4,h5 {
+    font-family:  "caviardreams";
+    color: #ffffcc;
+    white-space: normal;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    line-height: 3em;
+    border-bottom: 3px dashed #ffffcc;
+}
+
+
